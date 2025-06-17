@@ -19,7 +19,7 @@ jobs:
   deploy-job-develop:
     needs: "build-job-develop"
     runs-on: ubuntu-latest
-    enviornment:
+    environment:
       name: "develop-env"
     permissions:
       pages: write
